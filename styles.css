@@ -1,0 +1,31 @@
+.gridFour {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 500px;
+  background-color: green;
+
+}
+#nestedgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.gridFive {
+  background-color:ghostwhite;
+}
+.collection-options img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gridSix{
+  width: 500px;
+  background-color: lightgray;
+}
+
+.new-section p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
